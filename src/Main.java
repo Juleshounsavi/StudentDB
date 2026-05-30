@@ -16,7 +16,7 @@ public class Main {
         int choix = -1;
         while(choix != 0){
             System.out.println("===INTERFACE INTERACTIVE DE TEST DU CODE===");
-            System.out.println("Que opperation voulez vous effectuez?");
+            System.out.println("Quelle opperation voulez vous effectuez?");
             System.out.println("1-Ajouter un etudiant");
             System.out.println("2-Afficher la liste de tous les etudiants");
             System.out.println("3-Chercher un etudiant via son id");
