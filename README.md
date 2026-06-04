@@ -68,19 +68,19 @@ StudentDB/
  
 ## Patterns & Concepts appliqués
  
-- **DAO Pattern** — séparation de la logique d'accès aux données de la logique métier
-- **Singleton Pattern** — instance unique de connexion à la base de données
-- **PreparedStatement** — protection contre les injections SQL
-- **try-with-resources** — fermeture automatique des ressources JDBC (Connection, PreparedStatement, ResultSet)
-- **Interface Java** — abstraction de la couche DAO pour faciliter la maintenabilité
+- **DAO Pattern**: séparation de la logique d'accès aux données de la logique métier
+- **Singleton Pattern**: instance unique de connexion à la base de données
+- **PreparedStatement**: protection contre les injections SQL
+- **try-with-resources**: fermeture automatique des ressources JDBC (Connection, PreparedStatement, ResultSet)
+- **Interface Java**: abstraction de la couche DAO pour faciliter la maintenabilité
 ---
  
 ## Installation & Lancement
  
 ### Prérequis
  
-- JDK 11 ou supérieur
-- MySQL 8.0 ou supérieur
+- JDK 17 ou supérieur
+- MySQL 8.0.45 ou supérieur
 - MySQL Connector/J ajouté au classpath
 ### 1. Créer la base de données
  
